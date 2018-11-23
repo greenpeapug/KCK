@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+      <title>Kino studyjne KCK/events</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="style.css" />
+      <script>
+        document.write("<title>"Events"</title>");
+      </script>
+    </head>
+
+    <body>
+      <header>
+        <h3>Kino studyjne KCK</h3>
+      </header>
+      <h1> Events </h1>
+      <ul>
+        <li class="new">Urodziny w kinie studyjnym</li>
+        <li class="new">Pokazy specjalne
+            <ol>
+                <li class="wer">Spotkanie z krytykiem</li>
+                <li class="wer">Kino konesera</li>
+                <li class="wer">Historia kina</li>
+            </ol>
+        </li>
+        <li class="new">Maratony
+          <ol>
+              <li class="wer">Noc grozy</li>
+              <li class="wer">Śmiech to zdrowie</li>
+              <li class="wer">Maraton z ...</li>
+          </ol>
+        </li>
+      </ul>
+      <a href="index.html">Repertuar<</a>
+      <a href="podstrona2.html">Newsletter></a>
+      <script>
+
+           var d = new Date();
+           var h = d.getHours();
+
+           switch (h){
+           case 15:
+                 document.write("Przerwa w obsłudze strony.");
+            break;
+
+           default:
+             document.write("");
+       }
+       <footer>JPG</footer>
+    </body>
+
+</html>

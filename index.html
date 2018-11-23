@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+      <title>Kino studyjne KCK</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="style.css" />
+
+    </head>
+
+    <body>
+      <header>
+        <h3>Kino studyjne KCK</h3>
+      </header>
+      <div id="rep">
+      <h1> Repertuar </h1>
+      <p>Poniedziałek-Środa</p>
+      <strong>JA Komputer</strong> <em>Napisy</em>
+      <p>10:00   12:30   14:00   18:00   21:30</p>
+      <strong>Python i Przyjaciele</strong> <em>Dubbing</em>
+      <p>10:30   13:45   15:00   18:15   22:00</p>
+      <strong>Zrozumieć Filozofa i inne zjawiska <br> paranormalne </strong>
+      <p>11:00   16:45   20:00
+
+
+      <h2> Cennik </h2>
+      <table border="5">
+      <caption></caption>
+      <tr><td>Rodzaj biletu</td><th>Poniedziałek</th><th>Wtorek</th><th>Środa</th></tr>
+      <tr><th>Normalny</th><td>16zł</td><td>10zł</td><td>16zł</td></tr>
+      <tr><th>Ulgowy*</th><td>12zł</td><td>10zł</td><td>12zł</td></tr>
+      <tr><th>Grupowy**</th><td>11zł</td><td>10zł</td><td>11zł</td></tr>
+      </table>
+      <p1 class="rem">* Ulga przysługuje uczniom, studentom oraz osobom  <br> powyżej 60 roku życia.</p>
+      <p1 class="rem">** Dla grup powyżej 10 osób. </p>
+      </div>
+      <aside>
+        <h2>Historia filmu</h2>
+        <p>Powstanie filmu wiązało się z odkryciem niedoskonałości ludzkiego <br>wzroku i jego opóźnień w przetwarzaniu obrazu. W związku z tym powstały <br> urządzenia „oszukujące” wzrok, które ciąg szybko zmieniających się nieruchomych obrazków <br>przeobrażały w ruchomy obraz. Najwcześniejsze z nich to camera obscura; <br>w XVIII i XIX wieku powstały również takie urządzenia, jak zoetrop, praksinoskop i fenakistiskop. <br>W 1877 roku Hannibal Goodwin opracował taśmę celuloidową, co znacząco przyspieszyło rozwój techniki filmowej. <br>Pierwsze, prymitywne filmy powstały orientacyjnie w 1887 i 1888, a ich autorem był francuski wynalazca <br>Louis Le Prince; do innych pionierów sztuki filmowej należeli Max Skladanowsky <br>oraz William Friese-Greene. Pod koniec XIX wieku powstało wiele eksperymentalnych <br>urządzeń do wyświetlania filmów (między innymi kinetoskop autorstwa Thomasa Alvy Edisona).
+      </aside>
+      <div="img">
+
+      <img src="pic.jpg" alt="" title="Zootopia"width="500" height="600">
+      </div>
+      <a href="podstrona.html">Events></a>
+      <a href="podstrona2.html">Newsletter>></a>
+
+
+      <button type="button"
+      onclick="document.getElementById('demo').innerHTML = Date()">
+      Pokaż obecną datę.</button>
+
+      <p id="demo"></p>
+      <script>
+
+           var d = new Date();
+           var h = d.getHours();
+
+           switch (h){
+           case 15:
+                 document.write("Przerwa w obsłudze strony.");
+            break;
+
+           default:
+             document.write("");
+       }
+
+       </script>
+
+       <footer>JPG</footer>
+    </body>
+
+</html>

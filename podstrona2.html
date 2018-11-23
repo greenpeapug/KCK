@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+      <title>Kino studyjne KCK/newsletter</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="style.css" />
+        <script>
+          document.write("<title>"Newsletter"</title>");
+        </script>
+    </head>
+
+    <body>
+      <header>
+        <h3>Kino studyjne KCK</h3>
+      </header>
+      <h1> Newsletter </h1>
+        <form action="mailto:leo.green@wp.pl?subject=temat_emaila" method="post"
+        enctype="text/plain">
+           Nick:
+           <br>
+           <input type="text" name="nick" value="">
+           <br>
+           Email:<br>
+           <input type="text" name="email" value="">
+
+           <p>
+               Zostaw komentarz:
+              <br>
+              <textarea name="content" rows="12" cols="50"></textarea>
+          </p>
+          <input type="submit" value="Submit">
+        </form>
+      <a href="index.html">Repertuar<<</a>
+      <a href="podstrona.html">Events<</a>
+      <script>
+
+           var d = new Date();
+           var h = d.getHours();
+
+           switch (h){
+           case 15:
+                 document.write("Przerwa w obsłudze strony.");
+            break;
+
+           default:
+             document.write("");
+       }
+       <nav>
+         <ul>
+           <li> <a href="em.asf">Gif</a> </li>
+
+         </ul>
+       </nav>
+       <footer>JPG</footer>
+       </script>
+
+    </body>
+
+</html>
